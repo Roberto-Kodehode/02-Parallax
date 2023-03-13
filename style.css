@@ -1,0 +1,102 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font size: 16px;
+  font-family: 'Roboto', sans-serif;
+}
+
+img {
+    width: 120px;
+    border: #eff6e0 solid 2px;
+    border-radius: 16px;
+    opacity: 0.6;
+   }
+
+.center {
+    display: flex;
+    justify-content: space-between;
+    margin: auto 0px;
+    width: 100%;
+}
+
+img:hover {
+opacity: 1;
+transform: scale(1.4)
+}
+
+H1 {
+    text-align: center;
+    color: #01161e;
+    letter-spacing: 4px;
+    text-decoration: underline;
+    text-underline-offset: 16px;
+}
+
+p {
+    color: #01161e;
+    letter-spacing: 2px;
+    line-height: 1.8;
+}
+
+.background_1, .background_2, .background_3, .background_4, .background_5 {
+position: relative;
+opacity: 0.7;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+min-height: 100%;
+}
+
+.background_1 {
+    background-image: url(img-1.jpg);
+}
+
+.background_2 {
+   background-image: url(img-2.jpg); 
+}
+
+.background_3 {
+    background-image: url(img-3.jpg);
+}
+
+.background_4 {
+    background-image: url(img-4.jpg);
+}
+
+.background_5 {
+    background-image: url(img-5.jpg);
+}
+
+section {
+    padding: 50px 80px;
+}
+
+.light {
+    background-color:#eff6e0;
+}
+
+.dark {
+    background-color: #aec3b0;
+}
+
+.img_text {
+    position: absolute;
+    top: 30%;
+    width: 100%;
+    text-align: center;
+    color: #01161e;
+    font-size: 50px;
+    letter-spacing: 8px;
+}
+
+.img_text-last {
+    position: absolute;
+    bottom: 1%;
+    width: 100%;
+    text-align: center;
+    color: #eff6e0;
+    background-color: #01161e;
+    font-size: 50px;
+    letter-spacing: 8px;
+}
